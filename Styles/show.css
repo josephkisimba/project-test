@@ -1,0 +1,85 @@
+.slideshow {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.slideshow>.slideshow-item {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    opacity: 0;
+    animation: cycleImages 31s infinite;
+}
+
+.slideshow>.slideshow-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: zoom 31s infinite;
+}
+
+.slideshow>.slideshow-item:nth-child(1),
+.slideshow>.slideshow-item:nth-child(1) img {
+    animation-delay: 0s;
+}
+
+.slideshow>.slideshow-item:nth-child(2),
+.slideshow>.slideshow-item:nth-child(2) img {
+    animation-delay: 5s;
+}
+
+.slideshow>.slideshow-item:nth-child(3),
+.slideshow>.slideshow-item:nth-child(3) img {
+    animation-delay: 10s;
+}
+
+.slideshow>.slideshow-item:nth-child(4),
+.slideshow>.slideshow-item:nth-child(4) img {
+    animation-delay: 15s;
+}
+
+.slideshow>.slideshow-item>.slideshow-item-text {
+    max-width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    padding: 0.5rem 0.5rem;
+}
+
+.slideshow>.slideshow-item>.slideshow-item-text h5 {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2.5rem;
+}
+
+.slideshow>.slideshow-item>.slideshow-item-text p {
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+@keyframes cycleImages {
+    25% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 1;
+    }
+}
+
+@keyframes zoom {
+    100% {
+        transform: scale(1.3);
+    }
+}

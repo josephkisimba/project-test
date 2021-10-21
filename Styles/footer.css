@@ -1,0 +1,46 @@
+.footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: auto; */
+    padding: 60px 100px;
+    height: 150px;
+    margin-top: -4px;
+}
+
+.footer>.logo-footer img {
+    width: 180px;
+    height: 100%;
+}
+
+.footer>.contact-footer>.comppany-details-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    /* margin-left: 15px; */
+    /* font-size: 1.25em; */
+}
+
+.footer>.contact-footer>.comppany-details-wrapper i {
+    color: #8b008b;
+}
+
+.footer>.about-footer {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 85px;
+    width: 500px; */
+    padding: 0;
+    /* vertical-align: baseline; */
+    /* vertical-align: inherit; */
+    /* margin-bottom: 100px; */
+}

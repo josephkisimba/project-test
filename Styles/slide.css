@@ -1,0 +1,71 @@
+.slider-wrapper {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-wrapper>.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slider-wrapper>.slider>.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slider-wrapper>.slider>.slides input {
+    display: none;
+}
+
+.slider-wrapper>.slider>.slides>.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slider-wrapper>.slider>.slides>.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+.slider-wrapper>.slider>.slides>.navigation-manual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-wrapper>.slider>.slides>.navigation-manual>.manual-btn {
+    border: 2px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.slider-wrapper>.slider>.slides>.navigation-manual>.manual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.slider-wrapper>.slider>.slides>.navigation-manual>.manual-btn:hover {
+    background: red;
+}
+
+.slider-wrapper>.slider>.slides>#radio1:checked~.first {
+    margin-left: 0;
+}
+
+.slider-wrapper>.slider>.slides>#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+.slider-wrapper>.slider>.slides>#radio3:checked~.first {
+    margin-left: -40%;
+}
