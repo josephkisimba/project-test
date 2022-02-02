@@ -44,3 +44,20 @@
     /* vertical-align: inherit; */
     /* margin-bottom: 100px; */
 }
+
+.footer>.about-footer a {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.footer>.about-footer a:hover {
+    color: #8b008b
+}
+
+
+/* .navbar-wrapper>.right-flexbox>.address a {
+    color: #cbcbcb;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+} */

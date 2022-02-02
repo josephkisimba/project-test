@@ -10,14 +10,14 @@
     height: inherit;
     position: absolute;
     opacity: 0;
-    animation: cycleImages 31s infinite;
+    animation: cycleImages 33s infinite;
 }
 
 .slideshow>.slideshow-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    animation: zoom 31s infinite;
+    animation: zoom 33s infinite;
 }
 
 .slideshow>.slideshow-item:nth-child(1),
@@ -27,17 +27,17 @@
 
 .slideshow>.slideshow-item:nth-child(2),
 .slideshow>.slideshow-item:nth-child(2) img {
-    animation-delay: 5s;
+    animation-delay: 7s;
 }
 
 .slideshow>.slideshow-item:nth-child(3),
 .slideshow>.slideshow-item:nth-child(3) img {
-    animation-delay: 10s;
+    animation-delay: 14s;
 }
 
 .slideshow>.slideshow-item:nth-child(4),
 .slideshow>.slideshow-item:nth-child(4) img {
-    animation-delay: 15s;
+    animation-delay: 19s;
 }
 
 .slideshow>.slideshow-item>.slideshow-item-text {
