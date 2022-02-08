@@ -30,7 +30,7 @@
 
 .desciption-section {
     height: 400px;
-    background-image: url(../Images/background/cupcake-1.jpg);
+    background-image: url(../Images/background/cupcake-4.jpg);
     background-color: #8b008b;
     border-top: 10px solid white;
     color: #11122b;
@@ -50,7 +50,7 @@
 .desciption-section>.description-wrapper>.description {
     padding: 20px;
     margin: 42px;
-    color: #fff5ee;
+    color: black;
     text-align: center;
     border-bottom: 5px solid transparent;
     border-radius: 10px;
@@ -58,7 +58,7 @@
 }
 
 .desciption-section>.description-wrapper>.description:hover {
-    border-bottom: 5px solid #fff5ee;
+    border-bottom: 5px solid black;
 }
 
 .desciption-section>.description-wrapper>.description :nth-child(1) {
