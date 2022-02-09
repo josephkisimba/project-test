@@ -30,3 +30,7 @@
 .square>.text-wrapper h1 {
     color: #cea135;
 }
+
+.squares-img-wrapper>.square>.text-wrapper p {
+    font-family: 'Times New Roman', Times, serif;
+}
