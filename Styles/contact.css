@@ -25,3 +25,12 @@
 .company-metadata-sidebar-wrapper>.company-details-wrapper i {
     color: #8b008b
 }
+
+.company-metadata-sidebar-wrapper>.company-details-wrapper a {
+    color: #11122b;
+    text-decoration: none;
+}
+
+.company-metadata-sidebar-wrapper>.company-details-wrapper a:hover {
+    color: #8b008b
+}
